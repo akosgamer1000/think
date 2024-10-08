@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
     Integer rannum;
     Random ran;
     Integer life;
+    Integer limti;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

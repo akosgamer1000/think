@@ -63,7 +63,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/buttonminusz"
-        android:text="+"
+        android:text="-"
         android:textSize="25sp"
         android:layout_below="@+id/number"
         android:layout_centerHorizontal="true"

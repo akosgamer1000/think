@@ -8,9 +8,77 @@
     tools:context=".MainActivity">
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        >
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/imageheart"
+            android:src="@drawable/heart2"
+            >
 
+        </ImageView>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/imageheart2"
+            android:src="@drawable/heart2"
+            >
+
+        </ImageView>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/imageheart3"
+            android:src="@drawable/heart2"
+            >
+
+        </ImageView>
     </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:text="0"
+        android:id="@+id/number"
+        >
 
+
+    </TextView>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonplusz"
+        android:text="+"
+        android:textSize="25sp"
+        android:layout_above="@+id/number"
+        android:layout_centerHorizontal="true"
+        >
+
+    </Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonminusz"
+        android:text="+"
+        android:textSize="25sp"
+        android:layout_below="@+id/number"
+        android:layout_centerHorizontal="true"
+        >
+
+    </Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/submit"
+        android:text="küldés"
+        android:textSize="25sp"
+        android:layout_alignParentBottom="true"
+        >
+
+    </Button>
 
 </RelativeLayout>
